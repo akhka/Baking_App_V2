@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="ingredient"
+            type="com.example.bakingappv2.data.model.Ingredient" />
+
+    </data>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingredient_list"
+        android:background="@color/step_bg"
+        android:padding="8dp"/>
+
+</layout>
